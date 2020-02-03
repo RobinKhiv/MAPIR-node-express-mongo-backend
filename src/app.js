@@ -8,6 +8,7 @@ const helmet = require('helmet');
 const { NODE_ENV } = require('./config');
 const taskRouter = require('./task/task-router');
 const mongoConnect = require('./utils/database').mongoConnect;
+const { PORT } = require('./config');
 
 const app = express();
 
@@ -33,8 +34,7 @@ app.use(function errorHandler(error, req, res, next) {
 });
 
 mongoConnect(()=> {
-  app.listen(3000);
-  
+  app.listen(PORT);
 });
 
 module.exports = app;

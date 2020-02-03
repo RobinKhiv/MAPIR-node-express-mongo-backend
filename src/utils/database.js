@@ -4,7 +4,7 @@ const MongoClient = mongodb.MongoClient;
 let _db;
 
 const mongoConnect = (callback) => {
-  MongoClient.connect('mongodb+srv://robink:8mblFkvkFucwYATY@cluster0-aell2.mongodb.net/test?retryWrites=true&w=majority')
+  MongoClient.connect('mongodb+srv://robink:8mblFkvkFucwYATY@cluster0-aell2.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true })
     .then(client => {
       console.log('connected'); 
       _db = client.db();
@@ -24,5 +24,3 @@ const getDb = () => {
 
 exports.mongoConnect = mongoConnect;
 exports.getDb = getDb;
-
-  

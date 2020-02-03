@@ -26,7 +26,7 @@ taskRouter
 
     const task = new Task(newTask.id, newTask.title, newTask.isDone);
     task.save();
-    res.status(201);
+    res.status(201).json(newTask);
   });
 
 taskRouter
@@ -51,7 +51,6 @@ taskRouter
         res.status(204).end());
   }).delete((req, res, next) => {
     const taskId = req.params.taskId;
-    console.log(taskId)
     Task.deleteById(taskId).then(() => {
       res.status(204).end();
     });
