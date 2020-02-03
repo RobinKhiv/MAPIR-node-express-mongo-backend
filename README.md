@@ -1,6 +1,3 @@
-# Live Site
-Click on link to load live site. No Install Needed [Live Link](http://www.robinkhiv.com/MAPIR-Angular-frontend)
-
 ## Set up
 
 Complete the following steps to start a new project (NEW-PROJECT-NAME):
