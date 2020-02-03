@@ -1,5 +1,5 @@
 # Live Site
-Click on link to load live site. No Install Needed `http://www.robinkhiv.com/MAPIR-Angular-frontend/`
+Click on link to load live site. No Install Needed [Live Link](http://www.robinkhiv.com/MAPIR-Angular-frontend)
 
 ## Set up
 
@@ -18,4 +18,4 @@ Start nodemon for the application `npm run dev`
 
 ## Front-end Application
 
-This server is made to run with `https://github.com/RobinKhiv/MAPIR-Angular-frontend`
+This server is made to run with [Frontend github](`https://github.com/RobinKhiv/MAPIR-Angular-frontend`)
