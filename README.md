@@ -1,3 +1,6 @@
+# Live Site
+Click on link to load live site. No Install Needed `http://www.robinkhiv.com/MAPIR-Angular-frontend/`
+
 ## Set up
 
 Complete the following steps to start a new project (NEW-PROJECT-NAME):
@@ -16,5 +19,3 @@ Start nodemon for the application `npm run dev`
 ## Front-end Application
 
 This server is made to run with `https://github.com/RobinKhiv/MAPIR-Angular-frontend`
-
-Please install both backend and frontend application
